@@ -4,7 +4,7 @@
 ---
 
 ## 📌 Project Overview
-
+This project analyzes over 2.2 million NYC motor vehicle collision records to evaluate structural shifts in crash severity, borough-level fatal risk disparities, and risk concentration across time, geography, and road user groups. The dataset includes crash dates/times, locations, boroughs, vehicle types, injuries/fatalities, and contributing factors.
 
 ## 🎯 Objectives
 
