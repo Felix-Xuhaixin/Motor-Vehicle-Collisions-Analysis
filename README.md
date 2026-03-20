@@ -54,7 +54,7 @@ Raw data was imported into a Jupyter notebook using `pandas`, cleaned and transf
    Dropped fields which were irrelevant for the analysis: `crash_date`, `crash_time`, `latitude`, `longitude`, `location`, `off_street_name`
 
 7. **Formating the Values**  
-   Converted the values of `boroughs`, `on_street_name`, `cross_street_name` to format of first letter capitalized.  
+   Converted the values of `boroughs`, `on_street_name`, `cross_street_name` to the format of first letter capitalized.  
 
 8. **Working With Null Values**  
    Filled gaps in all the columns.
@@ -68,15 +68,13 @@ The cleaned data was exported to MySQL workbench and then connected to Tableau P
 
 ## 🔍 Key Findings  
 
-### 📌 Overall Insights  
-- There were **288867 total inspections** in over **30,360 different restaurants** across the city. **Manhattan** leads with 106,783 inspections, followed by Brooklyn and Queens with 74888 and 70693 inspections respectively.
+### 📌 Collision Trends
 
-- Manhattan leads with the highest number of restaurants with **grade A restaurants(36908)**; Brooklyn has 36036 grade A.
-- Staten Island lead with highest rate of grade A (72.59%) , followed by Manhattan with 70.06%.
-- The commonest inspection programs are **Cycle inspection, pre-permit and adminstrative Miscellaneous inspections**. **Initial inspections** was the highest number of inspection phases with 205252 inspections. Re-inspection and Reopening inspection followed with 72471 and 3607 respectively
+- The most frequently contributing factors are  "Driver Inattention/Distraction"(446275),"Failure to Yield Right-of-Way"(131852), "Following Too Closely"(118152), "Backing Unsafely"(80487) and "Passing or Lane Usage Improper"(63040).
 
+- Across all five boroughs, “Driver Inattention/Distraction” is the leading contributing factor in traffic crashes, with the highest counts recorded in Queens (134,418), Brooklyn (118,194), Manhattan (93,039), the Bronx (54,986), and Staten Island (22,018). “Failure to Yield Right-of-Way” ranks second overall and is disproportionately prevalent in Brooklyn (40,766) and Queens (46,891), while occurring less frequently in Manhattan (20,256). Similarly, “Following Too Closely” accounts for the greatest number of crashes in Queens (41,074), followed by Brooklyn (27,457) and Manhattan (18,468).
 
-### 🚨 Violation Analysis 
+### 🚨 Contributing Factors 
 
 - The top 5 violations were **Facility Maintenance** (73430), **Food Protection & Pest Control** (54678), **Food Worker Hygiene and Other Food Protection** (52022), **Time and Temperature Control for Safety** (36742) and **Garbage, Waste Disposal and Pest Management** (33802).
 
