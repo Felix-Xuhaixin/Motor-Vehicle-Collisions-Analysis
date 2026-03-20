@@ -53,11 +53,11 @@ Raw data was imported into a Jupyter notebook using `pandas`, cleaned and transf
 6. **Remove Irrelevant Columns**  
    Dropped fields which were irrelevant for the analysis: `crash_date`, `crash_time`, `latitude`, `longitude`, `location`, `off_street_name`
 
-7. **Standardising Violation Code**  
-   Mapped 148 violation codes into broader categories using [NYC Health Code](https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCrules/0-0-0-43593).
+7. **Formating the Values**  
+   Converted the values of `boroughs`, `on_street_name`, `cross_street_name` to format of first letter capitalized.  
 
 8. **Working With Null Values**  
-   Filled gaps in `grade`, `grade_date`, `inspection_program`, `inspection_type`, `scroe`, `violation_code`, `violation_description and 'zipcode`.
+   Filled gaps in all the columns.
 
 
 ### 📊 Exploratory Data Analysis (EDA)
