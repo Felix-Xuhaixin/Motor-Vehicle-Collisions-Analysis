@@ -45,7 +45,7 @@ Raw data was imported into a Jupyter notebook using `pandas`, cleaned and transf
    Converted date fields (`crash_date`, `crash_time`) to datetime format.
    
 4. **Populating the Missing Values (boroughs,streets,locations)**  
-   
+   Pupulated the missing values of boroughs, according to the 
 
 5. **Standardising the Cuisine_Description Columns**  
    Standardized `cuisine_description` by:  
