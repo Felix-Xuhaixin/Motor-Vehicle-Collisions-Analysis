@@ -45,15 +45,13 @@ Raw data was imported into a Jupyter notebook using `pandas`, cleaned and transf
    Converted date fields (`crash_date`, `crash_time`) to datetime format.
    
 4. **Populating the Missing Values (boroughs,streets,locations)**  
-   Pupulated the missing values of boroughs, according to the 
+   Pupulated the missing values of boroughs, according to the streets and locations. 
 
-5. **Standardising the Cuisine_Description Columns**  
-   Standardized `cuisine_description` by:  
-   **Geographic origin** (e.g., African, European, American)  
-   **Thematic grouping** (e.g., ethnic, fast food, beverage
-
-6. **Standardising the Cuisine_Description Columns**  
-   Split `inspection_type` into two new columns: `inspection_program` and `inspection_phase`.
+5. **Standardising Vehicle Types**  
+   Removed the specific vehicle types, remain the major vehicle types.
+   
+6. **Remove Irrelevant Columns**  
+   Dropped fields which were irrelevant for the analysis: `crash_date`, `crash_time`, `latitude`, `longitude`, `location`, `off_street_name`
 
 7. **Standardising Violation Code**  
    Mapped 148 violation codes into broader categories using [NYC Health Code](https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCrules/0-0-0-43593).
