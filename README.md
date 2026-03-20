@@ -70,26 +70,22 @@ The cleaned data was exported to MySQL workbench and then connected to Tableau P
 
 ### 📌 Collision Trends
 
-- The most frequently contributing factors are  "Driver Inattention/Distraction"(446275),"Failure to Yield Right-of-Way"(131852), "Following Too Closely"(118152), "Backing Unsafely"(80487) and "Passing or Lane Usage Improper"(63040).
+- Before year 2020 the total crashes per year were beyond 200000, 2020-2022 the total crashes per year were about 110000,and at 2023 and 2024 the total crashes number decreased at 96501 and 91192. Apparently the trend of total crashes is decreasing.
 
-- Across all five boroughs, “Driver Inattention/Distraction” is the leading contributing factor in traffic crashes, with the highest counts recorded in Queens (134,418), Brooklyn (118,194), Manhattan (93,039), the Bronx (54,986), and Staten Island (22,018). “Failure to Yield Right-of-Way” ranks second overall and is disproportionately prevalent in Brooklyn (40,766) and Queens (46,891), while occurring less frequently in Manhattan (20,256). Similarly, “Following Too Closely” accounts for the greatest number of crashes in Queens (41,074), followed by Brooklyn (27,457) and Manhattan (18,468).
+- Brooklyn(621708) and Queens(598683) have the highest number of craches
+
+- The top 10 streets with the most collisions are Broadway(20892), Belt Parkway(19831), Atlantic Avenue(17875), 3 Avenue(14332), Long Island Expressway(13870), Brooklyn Queens Expressway(13636), Northern Boulevard(13525), Grand Central Pkwy(11840), Linden Boulevard(11434), Flatbush Avenue(11202).
 
 ### 🚨 Contributing Factors 
 
-- The top 5 violations were **Facility Maintenance** (73430), **Food Protection & Pest Control** (54678), **Food Worker Hygiene and Other Food Protection** (52022), **Time and Temperature Control for Safety** (36742) and **Garbage, Waste Disposal and Pest Management** (33802).
+- The most frequently happened factors are  "Driver Inattention/Distraction"(446275),"Failure to Yield Right-of-Way"(131852), "Following Too Closely"(118152), Backing Unsafely(80487) and Passing or Lane Usage Improper(63040).
 
-- There were 153133 **critical** violations (54.44%) as compared to 128152 **non-critical** violations (45.56%).
-
-- All the boroughs had more than 50% of the restaurants flagged for critical violations. The analysis reveals that 55.7% of inspections in **Staten Island** had critical violations. **Queens** borough has 55% of inspections flagged with critical violations. **Brooklyn** had 54.9% of inspections flagged with critical violations.
+- Across all five boroughs, “Driver Inattention/Distraction” is the leading contributing factor in traffic crashes, with the highest counts recorded in Queens (134,418), Brooklyn (118,194), Manhattan (93,039), the Bronx (54,986), and Staten Island (22,018). “Failure to Yield Right-of-Way” ranks second overall and is disproportionately prevalent in Brooklyn (40,766) and Queens (46,891), while occurring less frequently in Manhattan (20,256). Similarly, “Following Too Closely” accounts for the greatest number of crashes in Queens (41,074), followed by Brooklyn (27,457) and Manhattan (18,468).
 
 
 ### 🍽️ Cuisine Analysis  
 
-- Top 3 cuisine with highest grades are **North American**(75.38% grade A), **Neutral**(74.97% grade A) and **European**(68.65% grade A).
-- The **Filipino**(25.97% grade C),**Bangladeshi**(24.16% grade C),**Creole**(24.12% grade C),**Pakistani**(22.94 grade C) and **African**(21.72% grade C) are the top 5 cuisine with lowest score.
-- The cuisine with the highest proportion of 'Critical' are **Czech**(69.23%), **Creole**(60.32%), **Bangladeshi**(60.12%) and **Pakistani**(59.93%); The geographic cuisine with the highest proportion of 'Critical' is **South Asian**(58.94%); The geographic cuisine with the highest proportion of 'Critical' are **Ethnic cuisine**(55.65%) and **Fine dining**(55.36%) 
-
-
+- 
 ## 💡 Recommendations 
 
 1. Improve re-inspection frequency in high-risk areas and restaurants
