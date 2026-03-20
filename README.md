@@ -104,7 +104,7 @@ The total number of fatalities by borough: Queens (1,022), Brooklyn (982), the B
 
 ### 🙏 Credit
 
-- **[Analyst Builder](https://www.analystbuilder.com/projects/restaurant-health-inspection-analysis-nyc-FhAOm)** for the datasets and the directions for the analysis.
+- **[Analyst Builder](https://www.analystbuilder.com/projects/motor-vehicle-collisions-analysis-nyc-oeMWy)** for the datasets and the directions for the analysis.
 
 ---
 
