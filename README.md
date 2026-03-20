@@ -83,23 +83,28 @@ The cleaned data was exported to MySQL workbench and then connected to Tableau P
 - Across all five boroughs, “Driver Inattention/Distraction” is the leading contributing factor in traffic crashes, with the highest counts recorded in Queens (134,418), Brooklyn (118,194), Manhattan (93,039), the Bronx (54,986), and Staten Island (22,018). “Failure to Yield Right-of-Way” ranks second overall and is disproportionately prevalent in Brooklyn (40,766) and Queens (46,891), while occurring less frequently in Manhattan (20,256). Similarly, “Following Too Closely” accounts for the greatest number of crashes in Queens (41,074), followed by Brooklyn (27,457) and Manhattan (18,468).
 
 
-### 🍽️ Cuisine Analysis  
+### 📌 Injury & Fatality Analysis  
+ - The total number of injured persons by borough: Brooklyn (221,627), Queens (203,201), the Bronx (118,112), Manhattan (100,774), and Staten Island (31,528).  
+The total number of fatalities by borough: Queens (1,022), Brooklyn (982), the Bronx (587), Manhattan (491), and Staten Island (177).
 
-- 
+- For injured rate, motorist(72.60%), pedestrians(18.41%), cyclist(8.99%); For fatality rate, pedestrians(46.31%), motorist(38.13%), cyclist(7,37%)
+
+### 🚨 Vehicle Types
+
+  - The vehicle types which are most often involved in crashes are Sedan(633856,29.01%), Station Wagon(497034,22.75%), Passenger Vehicle(414885,18.99%), Sport Utility(179732,8.23%) and Taxi(87138,3.99%).
+
+  - Sedan is linked to the most severe crashes (230558 persons injured, 755 persons killed).
+
 ## 💡 Recommendations 
 
-1. Improve re-inspection frequency in high-risk areas and restaurants
-2. Targeted education for cuisines with frequent violations.
-3. A city campaign to train food workers on hygiene and safety.
-4. Restaurants should adhere to temperature control guidelines.
-5. Pass legislation for restaurants to have internal quality assurance managers to ensure compliance to the health codes.
+1. More speed enforcement in high-crash areas.
+2. Bike lane improvements in boroughs with high cyclist injuries.
+3. Public awareness campaigns for distracted driving.
 
 
 ### 🙏 Credit
 
 - **[Analyst Builder](https://www.analystbuilder.com/projects/restaurant-health-inspection-analysis-nyc-FhAOm)** for the datasets and the directions for the analysis.
-
-- **[NYC Environmental Health Services team at DOHMH](https://github.com/nycehs/NYC_geography)** for the topo-json of NYC.  
 
 ---
 
