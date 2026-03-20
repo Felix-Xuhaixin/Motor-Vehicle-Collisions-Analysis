@@ -5,8 +5,6 @@
 
 ## 📌 Project Overview
 
-NYC restaurant health inspections are designed to protect public health by ensuring food safety, sanitation, and regulatory compliance across all food service establishments. Inspectors check for compliance with New York City Health Code and New York State Sanitary Code, which set standards for cleanliness, food storage, pest control, and employee hygiene. The dataset includes restaurant details, location, cuisine descriptions, inspection results, grades, and violation types.
-
 
 ## 🎯 Objectives
 
