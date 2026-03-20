@@ -8,11 +8,11 @@ This project analyzes over 2.2 million NYC motor vehicle collision records to ev
 
 ## 🎯 Objectives
 
-- To identify common health violations
-- To analyze trends by cuisine and geography
-- To find variations in grades and violations across boroughs and over time.
-- To provide actionable recommendations.
-
+- To analyze trends of vehicle collisions
+- To identify most dangerous boroughs, streets, or intersections 
+- To find the leading causes of crashes 
+- To recognize the most severely victimized groups(pedestrians, cyclists, motorists).
+  
 ## 🛠️ Tools Used
 
 - Python: Pandas, SQLAlchemy, pymysql
@@ -36,16 +36,16 @@ Raw data was imported into a Jupyter notebook using `pandas`, cleaned and transf
 ### 🧹 Data Cleaning  
 
 1. **Initial Inspection**   
-   Reviewed structure and content of the raw dataset. 
+   Reviewed structure and content of the raw dataset. Renamed all columns to lowercase and replaced spaces with underscores for consistency
 
 2. **Duplicate Removal**  
-   First, renamed all columns to lowercase and replaced spaces with underscores for consistency. Then dropped rows with identical `camis`, `inspection_date`, and `violation_code`.
+  Then dropped rows with identical `crash_date`, `crash_time`, and `location`.
 
 3. **Type Conversion**  
-   Converted date fields (`inspection_date`, `grade_date`, `record_date`) to datetime format.
+   Converted date fields (`crash_date`, `crash_time`) to datetime format.
    
-4. **Remove Irrelevant Columns**  
-   Dropped fields which were irrelevant for the  analysis: `building`, `phone`, `latitude`, `longitude`, `community_board`, `council_district`, `census_tract`, `bin`, `bbl`, `nta`, `location_point1`.
+4. **Populating the Missing Values (boroughs,streets,locations)**  
+   
 
 5. **Standardising the Cuisine_Description Columns**  
    Standardized `cuisine_description` by:  
@@ -64,7 +64,7 @@ Raw data was imported into a Jupyter notebook using `pandas`, cleaned and transf
 
 ### 📊 Exploratory Data Analysis (EDA)
 
-The cleaned data was exported to MySQL workbench and then connected to Tableau Public for the analysis. Several techniques like aggregations, CTEs, and joins were used to glean insights using SQL. I then used Power BI to visualise the data and mapped NYC using zipcodes to identify violation hotspots across the city.
+The cleaned data was exported to MySQL workbench and then connected to Tableau Public for the analysis. Several techniques like aggregations, CTEs, and joins were used to glean insights using SQL. I then used Tableau Public to visualise the data and mapped NYC using zipcodes to identify violation hotspots across the city.
 
 ---
 
